@@ -1,4 +1,4 @@
-def find_second_largest(number):
+def find_second_largest(numberS):
     unique_numbers = list(set(numbers))
     unique_numbers.sort()
     if len(unique_numbers) < 2:
